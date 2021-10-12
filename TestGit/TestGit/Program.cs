@@ -6,11 +6,23 @@ namespace TestGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!"); 
+            int num = 1;
 
-            Console.WriteLine("Ok, i want pull this message ");
+            switch (num)
+            {
+                case 256:
+                    Console.WriteLine( 2 );
+                    break;
+                case 1:
+                    Console.WriteLine(1);
+                    goto case 5;
+                    
+                case 5:
+                    Console.WriteLine(5);
+                    break;
 
-            Console.WriteLine("bla bla bla ");
+
+            }
         }
     }
 }
