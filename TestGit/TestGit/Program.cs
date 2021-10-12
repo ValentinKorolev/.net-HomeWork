@@ -9,6 +9,8 @@ namespace TestGit
             Console.WriteLine("Hello World!"); 
 
             Console.WriteLine("Ok, i want pull this message ");
+
+            Console.WriteLine("bla bla bla ");
         }
     }
 }
