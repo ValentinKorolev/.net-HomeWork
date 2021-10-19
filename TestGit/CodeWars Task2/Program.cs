@@ -6,7 +6,7 @@ namespace CodeWars_Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IsIsogramm("Babe"));
+            Console.WriteLine(IsIsogramm("aba"));
         }
         static bool IsIsogramm(string str)
         {
@@ -26,6 +26,14 @@ namespace CodeWars_Task2
 
             }
             return isIsogramm;
+            //CodeWars decision 
+            /*public static bool IsIsogram(string str)
+            {
+                return str.ToLower().Distinct().Count() == str.Length;
+                приведем строку к нижнему регистру, Distinct удалит повторный символ, Count поолучит число элементов,
+                и затем стравним с длинной строки. Если было совпаление символов длинна не сойдется, вернеться фолс.
+            
+            }*/
         }
     }
 }
