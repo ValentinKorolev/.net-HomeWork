@@ -41,6 +41,22 @@ namespace CodeWars_Task3
             }
 
             return modifyText;
+
+            /* CodeWars decision 
+              public static class Kata
+            {
+                // return masked string
+                public static string Maskify(string cc)
+                {
+                     int len = cc.Length;
+                     if (len <=4)
+                        return cc;
+        
+                return cc.Substring(len-4).PadLeft(len, '#'); 
+                //PadLeft() Возвращает новую строку указанной длины, 
+                //в которой начало текущей строки заполняется пробелами или указанным знаком
+                }
+            }*/             
         }
     }
 }
