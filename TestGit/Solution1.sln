@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars Task1", "..\..\..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars Task2", "CodeWars Task2\CodeWars Task2.csproj", "{BEE09E1D-0187-41F8-BDDB-71A206251631}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars Task3", "CodeWars Task3\CodeWars Task3.csproj", "{40328827-8CA4-4F6E-A279-59A1AA0BC9F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BEE09E1D-0187-41F8-BDDB-71A206251631}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE09E1D-0187-41F8-BDDB-71A206251631}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE09E1D-0187-41F8-BDDB-71A206251631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40328827-8CA4-4F6E-A279-59A1AA0BC9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40328827-8CA4-4F6E-A279-59A1AA0BC9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40328827-8CA4-4F6E-A279-59A1AA0BC9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40328827-8CA4-4F6E-A279-59A1AA0BC9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
